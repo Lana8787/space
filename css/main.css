@@ -1,0 +1,266 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&family=Bellefair&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&family=Bellefair&display=swap");
+
+/*
+@media screen(min-width: 600px) {
+  * {
+    padding: 0;
+    margin: 0;
+  }
+}*/
+
+:root {
+  --container-width: 1385px;
+  --container-padding: 15px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url(./../img/home/background-home-desktop.jpg);
+  background-size: cover;
+}
+
+.logo {
+  font-size: 3.5rem;
+}
+
+/*.nav_link {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 20px;
+  position: relative;
+  text-decoration: none;
+  font-family: Barlow Condensed;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  color: #d0d6f9;
+  text-transform: uppercase;
+}
+
+.menu_number {
+  font-weight: 700;
+  color: white;
+}
+
+.nav_link::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 3px;
+  color: white;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1;
+  text-decoration: none;
+}
+
+.nav_link:hover {
+  text-decoration: underline;
+  height: 5px;
+}
+
+.header_container {
+  width: 100%;
+  max-width: 1440px;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+.header_inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+
+
+
+.text_accent {
+  font-family: Barlow Condensed;
+  font-size: 28px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 33, 6px;
+  color: #d0d6f9;
+  text-transform: uppercase;
+}
+
+.space_text {
+  font-family: Bellefair;
+  font-size: 150px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 171, 9px;
+  color: white;
+  text-transform: uppercase;
+}
+.p_text {
+  font-family: Barlow;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 32px;
+  color: #d0d6f9;
+}
+
+.large_button {
+  background-color: white;
+  width: 274px;
+  height: 274px;
+  border-radius: 50%;
+  font-family: Bellefair;
+  font-size: 32px;
+  text-transform: uppercase;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /*height: 100px;*/
+ /* margin: 150px 150px 50px 150px;
+} 
+*/
+
+/* HEADER */
+/*.header_container{
+  margin-top: 40px;
+  margin-left: 55px;
+  min-width: 1385px;
+  min-height: 96px;
+  background-color: aliceblue;
+}
+
+.header_inner{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  /*вировнять все по центру*/
+  /*align-items: center;
+  column-gap: 50px;
+  background-color: aqua;
+  padding-left: calc( 100% - var(--container-width));
+}*/
+
+.header_container {
+  display: flex;
+  align-items: center;
+  min-width: var(--container-width);
+  min-height: 96px;
+  margin-left:  55px;
+  margin-top: 40px;
+}
+
+.header_logo {
+min-width: 555px;
+}
+
+.nav {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-left: 123px;
+padding-right: 165px;
+width: 100%;
+min-height: 96px;
+column-gap: 50px;
+background-color: rgba(255, 255, 255, 0.04);
+/*backdrop-filter: blur(10px);*/
+}
+
+.nav a {
+  position: relative;
+  font-family: Barlow Condensed;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  color: #d0d6f9;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.nav a span {
+  font-weight: 700;
+}
+
+/*подчеркивание навигации*/
+.nav a.active::after,
+.nav a:hover::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -36px;
+  display: block;
+  height: 2px;
+  background-color: #FFFFFF;
+  border-radius: 50px;
+}
+.greeting__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  /*height: 100px;*/
+ /*margin: 150px 150px 50px 150px;*/
+} 
+
+.greeting {
+  max-width: 445px;
+  height: 382px;
+  margin-top: 251px;
+  margin-left: 165px;
+ /* background-color: #FFFFFF;*/
+}
+
+.btn__container {
+  margin-top: 330px;
+  margin-right: 165px;
+}
+
+.text_accent {
+  font-family: Barlow Condensed;
+  font-size: 28px;
+  font-weight: 400;
+  letter-spacing: 4.72px;
+  color: #d0d6f9;
+  text-transform: uppercase;
+}
+
+.space_text {
+  font-family: Bellefair;
+  font-size: 150px;
+  font-weight: 400;
+
+  color: white;
+  text-transform: uppercase;
+}
+
+.p_text {
+  font-family: Barlow;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 32px;
+  color: #d0d6f9;
+}
+.large_button {
+  background-color: white;
+  width: 274px;
+  height: 274px;
+  border-radius: 50%;
+  font-family: Bellefair;
+  font-size: 32px;
+  text-transform: uppercase;
+}

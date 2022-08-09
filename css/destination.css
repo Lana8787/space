@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&family=Bellefair&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&family=Bellefair&display=swap");
+
+ .destination {
+    background: url(./../img/destination/background-destination-desktop.jpg);
+    background-size: cover;
+}
+
+.planet__text_accent {
+    margin: 76px 0px 64px 166px;
+    font-family: Barlow Condensed;
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: 4.72px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.planet__text_accent span {
+    font-weight: 700;  
+    opacity: 25%;
+}
+
+.planet__image__box {
+    
+}
+
+.planet__box {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+.planet__box__content {
+    width: 445px;
+    height: 472px;
+    margin-right: 165px;
+}
+
+.planet__image__box {
+    margin-left: 230px;
+    margin-bottom: 112px;
+}
+
+/*Nav planet*/
+.nav_planet {
+    display: flex;
+    /*flex-direction: row;*/
+    justify-content: space-between;
+    /*вировнять все по центру*/
+    align-items: center;
+    column-gap: 80px;
+}
+
+nav .nav__planet {
+    display: flex;
+    column-gap: 50px;
+    
+}
+
+nav a {
+    font-family: Barlow Condensed;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 2.7px;
+    color: #D0D6F9;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+/*подчеркивание навигации*/
+.nav_planet_line .active::after,
+.nav_planet_line :hover::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -10px;
+  display: block;
+  height: 2px;
+  background-color: #FFFFFF;
+  border-radius: 50px;
+}
+
+h1 {
+    margin-top: 37px;
+}
+
+.pl__text {
+    font-family: Bellefair;
+    font-size: 150px;
+    font-weight: 400;
+  
+    color: white;
+    text-transform: uppercase;
+  }
+  
+ .planet__text {
+    font-family: Barlow;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #d0d6f9;
+    border-bottom: 1px solid #383B4B;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: row;
+    column-gap: 65px;
+  }
+
+  footer p {
+    width: 170px;
+    height: 61px;
+  }
+
+  .footer__text {
+    font-family: Barlow Condensed;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2.36px;
+    line-height: 16.8px;
+    color: #D0D6F9;
+    text-transform: uppercase;
+  }
+  .footer__bold {
+    font-family: Bellefair;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 32.09px;
+    color: #FFFFFF;
+  }
+
+

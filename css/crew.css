@@ -1,0 +1,54 @@
+
+.crew {
+    background: url(./../img/crew/background-crew-desktop.jpg);
+    background-size: cover;
+}
+
+.crew__section {
+padding: 62px 154px 0 165px;
+}
+.container__crew {
+
+}
+.crew__row {
+
+}
+.crew__content {
+
+}
+.crew__text-accent {
+    /*margin: 76px 0px 64px 166px;*/
+    font-family: Barlow Condensed;
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: 4.72px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+.clear__text-accent {
+    font-weight: 700;  
+    opacity: 25%;
+}
+
+
+
+
+.crew__title {
+    font-family: Bellefair;
+    font-size: 56px;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+.bold__text-accent {
+    font-size: 32px;
+    font-weight: 400;
+    color: #FFFFFF;
+    opacity: 50.42%;
+}
+
+
+.crew__text {
+
+}
+
